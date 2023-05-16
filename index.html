@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Web-site --Shopping Cart</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Box icons link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="modal">
+
+        <div class="exit">
+            <i class='bx bx-x' ></i>
+        </div>
+        <div class="modalInfo">
+            <div class="loader">
+                <img class="modalImg" src="https://i.pinimg.com/originals/84/ef/44/84ef447b1462d8ed463d868d017ea365.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <!-- Cart icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="card-title">Your cart</h2>
+                <!-- cart content -->
+                <div class="cart-content">                                 
+                </div>              
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- .buy-button -->
+                <button type="button" class="btn-buy">Buy now</button>
+                <!-- close cart -->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+          </div>
+    </header>
+    <!-- shop -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!-- content -->
+        <div class="shop-content"></div>
+    </section>
+    <div class="box">
+        <h1>Xaridingiz uchun rahmat! <br>
+            Mahsulotlar tez orada yetgazib beriladi...
+        </h1>
+    </div>
+</body>
+    <!-- link to js -->
+<script src="./js/main.js"></script>
+</html>
